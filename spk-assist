@@ -37,7 +37,7 @@ while true; do
     fala "$prefixo"
 
     complemento=$(echo -e \
-                   "$( tr ',' '\n' <<< ${frase[$prefixo]} )\n0-VOLTAR" \
+                   "$( tr '\|' '\n' <<< ${frase[$prefixo]} )\n0-VOLTAR" \
                      | sort                                            \
                      | fzf --cycle                                     \
                 )
