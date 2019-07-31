@@ -78,6 +78,6 @@ Essa padronização foi feita para que as frases mais diretas ou urgentes sejam 
 No futuro (próximo), nós pretendemos...
 
 * Implementar a opção de executar áudios gravados (o problema é gravar)
-* Modificar o forma como as frases são configuradas no arquivo `spk-assist-sentences`
+* Modificar a forma como as frases são configuradas no arquivo `spk-assist-sentences`
 * Formatar a exibição do fzf
 * Implementar o teste de dependências
