@@ -1,0 +1,29 @@
+declare -A frase
+
+# frases compostas
+
+frase["alguém"]="me ajude"
+frase["até logo"]="tudo bem?,pessoal,meu amigo,mamãe,papai,vovô,vovó,João,Maria,meu amor,minha sogra"
+frase["boa noite"]="tudo bem?,pessoal,meu amigo,mamãe,papai,vovô,vovó,João,Maria,meu amor,minha sogra"
+frase["boa tarde"]="tudo bem?,pessoal,meu amigo,mamãe,papai,vovô,vovó,João,Maria,meu amor,minha sogra"
+frase["bom dia"]="tudo bem?,pessoal,meu amigo,mamãe,papai,vovô,vovó,João,Maria,meu amor,minha sogra"
+frase["chame"]="a enfermeira,o enfermeiro,os bombeiros!,a polícia!,uma ambulância!,seu pai,sua mãe"
+frase["desligue"]="a TV,o som,o rádio,o ventilador,o ar condicionado"
+frase["estou com dor"]="de barriga,na cabeça,nas costas,nas pernas,nos braços,no pescoço,no peito,quando respiro,no ouvido"
+frase["estou sentindo"]="sono,fome,dor,ansiedade,medo,alegria,tristeza"
+frase["eu quero"]="me virar,água,me sentar,um abraço,ir ao banheiro"
+frase["faça"]="um favor,um chá,um café,uma massagem,o meu prato,a minha cama"
+frase["ligue"]="a TV,o rádio,o ventilador,o ar condicionado,no noticiário,na novela"
+frase["me ajude"]="por favor"
+frase["obrigado"]="de verdade"
+frase["olá"]="tudo bem?,pessoal,meu amigo,mamãe,papai,vovô,vovó,João,Maria,meu amor,minha sogra"
+frase["pegue"]="um travesseiro,a comadre,meus remédios"
+frase["por favor"]="venha cá"
+frase["socorro"]="alguém me ajude"
+
+# frases simples (numeradas)
+
+frase["1-rápidas"]="Fogo! Chame os bombeiros!,Socorro! Chame uma ambulância!,Está doendo!"
+frase["2-perguntas"]="que horas são?,tudo bem?"
+frase["3-respostas"]="sim,não,talvez"
+frase["4-nomes"]="João,Maria,Pedro,Helena"

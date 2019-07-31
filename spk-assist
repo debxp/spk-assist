@@ -1,0 +1,53 @@
+#!/usr/bin/env bash
+
+# OPTIONS ----------------------------------------------------------------------
+
+VOICE="br1"    # br1 = MASC | br4 = FEM
+
+# FUNCTIONS --------------------------------------------------------------------
+
+fala() {
+    [[ ! $1 =~ ^[0-9] ]] && espeak -v mb-$VOICE -s 95 "$1" &> /dev/null & 
+}
+
+# INIT -------------------------------------------------------------------------
+
+SCRIPT_PATH=$(dirname "$0")
+
+echo -e "\nCarrgando frases..."
+
+source "$SCRIPT_PATH/spk-assist-sentences"
+
+# MAIN -------------------------------------------------------------------------
+
+clear
+
+for k in "${!frase[@]}"; do
+    prefixos+="$k\n"
+done
+
+prefixos+="0-SAIR"
+
+while true; do
+
+    prefixo=$(echo -e $prefixos | sort | fzf --cycle)
+    
+    [[ $prefixo = "0-SAIR" ]] && break
+    
+    fala "$prefixo"
+
+    complemento=$(echo -e \
+                   "$( tr ',' '\n' <<< ${frase[$prefixo]} )\n0-VOLTAR" \
+                     | sort                                            \
+                     | fzf --cycle                                     \
+                )
+    
+    fala "$complemento"
+
+done
+
+# EXIT -------------------------------------------------------------------------
+
+clear
+
+exit
