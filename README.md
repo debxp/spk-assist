@@ -1,6 +1,8 @@
 # spk-assist -  versão 1.0
 Pequeno (menos de 20 linhas) assistente de fala em shell script para pessoas com limitações motoras impossibilitadas de falar.
 
+Vídeo de demonstração [no Youtube](https://youtu.be/dhQKBfmiKYs).
+
 ## Justificativa
 
 Este script foi inspirado no projeto [PRIsh](https://github.com/projeto-pri/prish), parte do **Projeto PRI**, que é um utilitário em linha de comando para auxiliar pessoas que estão passando por alguma condição médica que limite seus movimentos e as impeça de falar, como vítimas de um AVC, por exemplo. Contudo, a nossa proposta difere em alguns pontos:
