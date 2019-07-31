@@ -13,7 +13,7 @@ Este script foi inspirado no projeto [PRIsh](https://github.com/projeto-pri/pris
 
 No mais, o `spk-assist` é um software 100% livre, com foco em usabilidade, portabilidade dentro do universo Linux, altamente personalizável, e extremamente simples.
 
-> **Observação:** o `spk-assist` não foi criado no intuito de ser melhor do que o **Projeto PRI** nem pretende desmerecer o trabalho dos seus desenvolvedores. Muito pelo contrário! A nossa ideia (e já estamos fazendo isso) é estudar o código original e contribuir (com código) para que ele ofereça ainda mais alternativas de uso. O nosso objetivo aqui é apenas apresentar uma outra visão sobre como atingir o mesmo propósito e descobrir como aplicar as soluções que que encontrarmos ao projeto original.
+> **Observação:** o `spk-assist` não foi criado no intuito de ser melhor do que o **Projeto PRI** nem pretende desmerecer o trabalho dos seus desenvolvedores. Muito pelo contrário! A nossa ideia (e já estamos fazendo isso) é estudar o código original e contribuir (com código) para que ele ofereça ainda mais alternativas de uso. O nosso objetivo aqui é apenas apresentar uma outra visão sobre como atingir o mesmo propósito e descobrir como aplicar as soluções que encontrarmos ao projeto original.
 
 ## Dependências
 
